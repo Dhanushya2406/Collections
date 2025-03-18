@@ -1,12 +1,12 @@
 package kt.timeComplexity
 
-fun fixedPrintMessage(){
+/*fun fixedPrintMessage(){
     println("Hello world")
 }
 
 fun isEven(n: Int): Boolean{
     return n%2 == 0
-}
+}*/
 
 fun main(){
 
