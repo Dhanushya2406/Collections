@@ -103,7 +103,7 @@ class SinglyLinkedList {
         println("Number of Nodes: $count")
     }
 
-    /*fun reversal(){
+    fun reversal(){
         var prev: Node? = null
         var current: Node? = head
         var next: Node? = head?.next
@@ -115,7 +115,7 @@ class SinglyLinkedList {
             current = next
         }
         head = prev
-    }*/
+    }
 
 }
 
@@ -144,7 +144,7 @@ fun main(){
     list.insertAtEnd(2)
     list.display()
     list.countNoOfNodes()
-//    list.reversal()
+    list.reversal()
     list.display()
 
 }
