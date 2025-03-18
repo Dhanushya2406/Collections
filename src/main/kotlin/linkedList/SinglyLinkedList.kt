@@ -1,4 +1,4 @@
-package linkedList
+package kt.dsa.linkedList
 
 class Node(var data: Int) {
     var next: Node? = null
@@ -85,7 +85,7 @@ class SinglyLinkedList {
         var temp = head
         var prev: Node? = null
         var index = 0
-        while (temp!= null && index <= position -1 ){
+        while (temp != null && index <= position - 1 ){
             prev = temp
             temp = temp.next
             index++
