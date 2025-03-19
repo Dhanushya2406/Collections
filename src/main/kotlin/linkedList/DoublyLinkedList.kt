@@ -80,6 +80,7 @@ class DoublyLinkedList {
             }
     }
 
+
     fun deleteAtPosition(position: Int){
         if (head == null){
             throw IndexOutOfBoundsException("Deletion failed: List is empty")
