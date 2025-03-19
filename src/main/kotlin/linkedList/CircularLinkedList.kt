@@ -11,7 +11,7 @@ class CircularLinkedList {
         val newNode = CircularNode(data)
 
         if (last == null){
-            newNode.next = newNode
+            newNode.next = newNode // This is circular linked list so call itself.
             last = newNode
         }else{
             newNode.next = last?.next
